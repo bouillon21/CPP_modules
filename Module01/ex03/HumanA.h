@@ -6,8 +6,17 @@
 #define PR____HUMANA_H
 
 
-class HumanA {
+#include <string>
+#include "Weapon.h"
 
+class HumanA {
+private:
+    std::string name;
+    Weapon &weapon;
+public:
+    HumanA(const std::string &name, Weapon &weapon);
+    ~HumanA();
+    void attack();
 };
 
 

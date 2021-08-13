@@ -6,8 +6,20 @@
 #define PR____HUMANB_H
 
 
-class HumanB {
+#include "Weapon.h"
 
+class HumanB {
+private:
+public:
+    virtual ~HumanB();
+
+private:
+    Weapon *weapon;
+    std::string name;
+public:
+    HumanB(const std::string &name);
+    void attack();
+    void setWeapon(Weapon &weapon);
 };
 
 

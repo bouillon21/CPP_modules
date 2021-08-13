@@ -1,10 +1,10 @@
-NAME		=	HI_THIS_IS_BRAIN!
+NAME		=	Unnecessary_violence!
 
-SRCS		=	main.cpp
+SRCS		=	main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 
 OBJS		= ${SRCS:.cpp=.o}
 
-INCLUDE		=
+#INCLUDE		=	HumanA.h HumanB.h Weapon.h
 
 CC			= clang++
 
