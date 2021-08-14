@@ -2,15 +2,15 @@ NAME		=	More_brainz!
 
 SRCS		=	Zombie.cpp main.cpp ZombieHorde.cpp
 
-OBJS		= ${SRCS:.cpp=.o}
+OBJS		= 	${SRCS:.cpp=.o}
 
 INCLUDE		=	Zombie.h
 
-CC			= clang++
+CC			= 	clang++
 
-RM			= rm -f
+RM			= 	rm -f
 
-CPPFLAGS		= -Wall -Wextra -Werror
+CPPFLAGS	= 	-Wall -Wextra -Werror
 
 .PHONY:			all clean fclean re
 

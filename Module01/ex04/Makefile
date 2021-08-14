@@ -1,12 +1,12 @@
-NAME		=	BraiiiiiiinnnzzzZ
+NAME		=	Sed_is_for_losers
 
-SRCS		=	main.cpp  randomChump.cpp Zombie.cpp newZombie.cpp
+SRCS		=	main.cpp
 
-OBJS		=	${SRCS:.cpp=.o}
+OBJS		= ${SRCS:.cpp=.o}
 
-INCLUDE		=	Zombie.h
+#INCLUDE		=	HumanA.h HumanB.h Weapon.h
 
-CC			= 	clang++
+CC			= clang++
 
 RM			= rm -f
 

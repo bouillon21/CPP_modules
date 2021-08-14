@@ -1,12 +1,12 @@
-NAME		=	BraiiiiiiinnnzzzZ
+NAME		=	Karen-filter
 
-SRCS		=	main.cpp  randomChump.cpp Zombie.cpp newZombie.cpp
+SRCS		=	main.cpp Karen.cpp
 
-OBJS		=	${SRCS:.cpp=.o}
+OBJS		= ${SRCS:.cpp=.o}
 
-INCLUDE		=	Zombie.h
+INCLUDE		=	Karen.h
 
-CC			= 	clang++
+CC			= clang++
 
 RM			= rm -f
 
