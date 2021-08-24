@@ -33,6 +33,7 @@ void ScavTrap::attack(std::string const & target)
 void ScavTrap::takeDamage(unsigned int amount)
 {
     this->Hitpoints -= amount;
+    if (Hitpoints < 0 ) Hitpoints = 0;
     std::cout << "ScavTrap < " << BLUE << this->Name << RESET
     << " > take < " << RED << amount << RESET << " > Damage!!";
     std::cout << "He has < " << GREEN << this->Hitpoints << RESET << " > hp last" << std::endl;
