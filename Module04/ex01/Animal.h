@@ -19,7 +19,7 @@ public:
     Animal & operator = (const Animal &animal);
 
     virtual void makeSound() const;
-    std::string getType() const;
+    virtual std::string getType() const;
 };
 
 
