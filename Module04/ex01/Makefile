@@ -1,14 +1,10 @@
-NAME = ex03
+NAME = ex01
+CLANG = clang++ -Wall -Wextra -Werror
 
-CLANG = clang++ -Wall -Werror
-
-SRC =	AMateria.cpp  \
-		Character.cpp \
-		Cure.cpp \
-		ICharacter.cpp \
-		IMateriaSource.cpp \
-		Ice.cpp \
-		MateriaSource.cpp \
+SRC =	Animal.cpp  \
+		Cat.cpp \
+		Dog.cpp \
+		Brain.cpp \
 		main.cpp
 
 OBJ = $(SRC:.cpp=.o)
