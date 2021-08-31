@@ -1,7 +1,3 @@
-//
-// Created by Lorent Evenstar on 8/20/21.
-//
-
 #include "Bureaucrat.hpp"
 
 Bureaucrat::GradeTooLowException::GradeTooLowException() : std::exception() {};

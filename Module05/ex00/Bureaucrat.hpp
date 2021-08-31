@@ -1,9 +1,12 @@
-//
-// Created by Lorent Evenstar on 8/20/21.
-//
-
 #ifndef CPP_STUDY_BUREAUCRAT_HPP
 #define CPP_STUDY_BUREAUCRAT_HPP
+
+# define RED			"\033[1;31m"
+# define RESET			"\033[0m"
+# define YELLOW			"\033[1;33m"
+# define BLUE			"\x1b[34m"
+# define GREEN			"\x1b[32m"
+# define WHITE			"\033[1;39m"
 
 #include <iostream>
 

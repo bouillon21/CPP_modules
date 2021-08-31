@@ -8,19 +8,19 @@
 
 #define COUNT_ANIMALS 4
 
-int main() {
+int main()
+{
 	// AAnimal test = AAnimal();
 	AAnimal	*arrayAnimals[COUNT_ANIMALS];
 
-	for (int i = 0; i < COUNT_ANIMALS; ++i) {
-		if (i < COUNT_ANIMALS / 2) {
+	for (int i = 0; i < COUNT_ANIMALS; ++i)
+	{
+		if (i < COUNT_ANIMALS / 2)
 			arrayAnimals[i] = new Dog();
-		}
-		else {
+		else
 			arrayAnimals[i] = new Cat();
-		}
 	}
-	//
+	std::cout << "**********************************" << std::endl;
 	for (int i = 0; i < COUNT_ANIMALS; ++i) {
 		delete arrayAnimals[i];
 	}
